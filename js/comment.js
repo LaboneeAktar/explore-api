@@ -1,4 +1,4 @@
-function showComment() {
+function showPicture() {
     fetch('https://jsonplaceholder.typicode.com/comments')
         .then(res => res.json())
         .then(data => displayComment(data))
@@ -19,4 +19,4 @@ function displayComment(comments) {
     }
 }
 
-showComment();
+showPicture();
